@@ -1,0 +1,49 @@
+﻿@model Book
+
+<div id="book-details">
+    <div class="book-details-container">
+        <img src="@Model.Image" />
+        <div class="book-info">
+            <span id="@Model.Id" onclick="getBookDetails('@Model.Id')" class="book-name">@Model.Name</span>
+            <span class="author-name">@Model.Author</span>
+
+            <span class="is-availible">
+
+                <i class="fa-solid fa-circle" style="color: @(Model.IsAvailable ? "green" : "red");"></i>
+                @if (Model.IsAvailable)
+                {
+                    <a  data-bs-toggle="modal" data-bs-target="#lendbook-modal" class="lend-book">Ödünç Ver</a>
+                }
+                else
+                {
+                    <span>Ödünç Alan: @Model.Borrower | Geri Getireceği Tarih: @Model.ExpireDate</span>
+                }
+            </span>
+            <div class="modal fade" id="lendbook-modal" tabindex="-1" aria-labelledby="lendbook-modal-label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="lendbook-modal-label">Kitap Ödünç Ver</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <div>Ödünç Alan</div>
+                                <input id="modal-borrower" type="text" />
+                            </div>
+                            <div class="form-group">
+                                <div>Geri Getirme Tarihi</div>
+                                <input id="modal-expire-date" type="datetime-local" />
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                            <button onclick="lendBook(@Model.Id)" type="button" class="btn btn-primary" data-bs-target="#result-modal" data-bs-toggle="modal">Kitabı Ödünç Ver</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="author-name">@Model.Summary</span>
+        </div>
+    </div>
+</div>

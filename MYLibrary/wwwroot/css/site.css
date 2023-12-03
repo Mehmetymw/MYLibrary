@@ -1,0 +1,186 @@
+﻿html, body {
+    height: 100%;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+
+   
+}
+
+@media (max-width:768px){
+    .searchbar {
+       margin:0;
+       padding-left:5px !important;
+    }
+    .main-container{
+        margin-left:5px !important;
+        margin-right:5px !important;
+    }
+    .book-details-container{
+        display:block !important;
+    }
+    .book-details-container img{
+        width:auto !important;
+    }
+}
+
+.header {
+    border-bottom: 1px solid gray;
+}
+
+.searchbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 25%;
+    padding-left: 25%;
+    display: flex;
+    flex: 1;
+    gap: 10px;
+}
+
+.main-container {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    height: 100%;
+}
+
+#book-container {
+    margin-top: 10px;
+}
+
+.book {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    padding: 10px 30px 10px 30px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+    .book img {
+        margin-right: 10px;
+        width: 64px;
+        height: auto;
+        max-height:100px;
+    }
+
+.book-name,
+.author-name,
+.is-availible {
+    display: block;
+    font-weight: bold;
+}
+
+.book-name {
+    cursor: pointer;
+    color: navy;
+    font-size: 20px;
+}
+
+.is-availible {
+    margin-top: auto;
+    font-size: 12px;
+}
+
+#add-book {
+    padding: 5px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+    #add-book:hover {
+        background-color: navy;
+        color: white;
+        transition: all 0.3s;
+    }
+
+    #add-book i {
+        margin-right: 5px;
+    }
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+div {
+    flex: 1;
+    text-align: left;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+input {
+    flex: 2;
+}
+
+#book-container {
+}
+
+.book-details-container {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    padding: 10px 30px;
+    background-color: white;
+    margin: 0px 10px 0px 10px;
+    border-radius: 20px;
+    justify-content: flex-end;
+}
+
+    .book-details-container img {
+        margin-right: 10px;
+        width: 500px;
+        height: auto;
+    }
+
+.book-info {
+    flex-direction: column;
+}
+
+    .book-info span {
+        font-size: 18px;
+    }
+
+    .book-info .book-name {
+        color: navy;
+        font-size: 35px;
+        cursor: default;
+    }
+
+    .book-info .is-availible {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    .book-info .author-name,
+    .book-info .is-availible {
+        margin-bottom: 10px;
+    }
+
+    .book-info button {
+        font-size: 16px;
+        align-self: flex-end;
+        margin-top: auto;
+    }
+
+.lend-book {
+    cursor: pointer;
+}
