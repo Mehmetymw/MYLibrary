@@ -8,6 +8,7 @@ MYLibrary is a comprehensive application designed for efficiently managing books
 - Searches for a book in the library
 - Adds new books to the library
 - Lends a book from the library to someone
+- Responsive Design
 
 ## Technologies Used
 - **Service:** .Net Core Web API
@@ -30,9 +31,8 @@ MYLibrary is a comprehensive application designed for efficiently managing books
 
 ## Getting Started
 1. Clone the repository.
-2. Set up the database using MSSQL and Entity Framework Core.
-3. Customize logging preferences based on your needs.
-4. Run the application and start efficiently managing your library books.
+2. Set up the MSSQL.
+3. Run the application and start efficiently managing your library books.
 
 ## Contributors
 - Mehmet YILDIRIM
