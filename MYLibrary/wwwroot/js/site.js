@@ -46,7 +46,7 @@ getBooks = () => {
 
             data.forEach(function (book) {
 
-                const html = fillHtml(book);
+                const html = generateBookHtml(book);
 
                 container.append(html);
             });
@@ -78,7 +78,7 @@ getBooksByName = () => {
 
             data.forEach(function (book) {
                 
-                const html = fillHtml(book);
+                const html = generateBookHtml(book);
 
                 container.append(html);
             });
@@ -169,7 +169,7 @@ lendBook = (bookId) => {
 
 }
 
-fillHtml = (book) => {
+generateBookHtml = (book) => {
     const bookName = book.name;
     const author = book.author;
     const isAvailable = book.isAvailable;
