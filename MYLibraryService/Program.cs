@@ -22,9 +22,16 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<LibraryDbContext>(options => {
-    options.UseSqlServer(builder.Configuration["LibraryDatabase:ConnectionString"]);
+    options.UseSqlServer(builder.Configuration.GetConnectionString("LibraryDatabase:ConnectionString"));
     options.EnableSensitiveDataLogging(true); //Logları konsol ekranında göstermek için.
 });
+
+// Veritabanını oluşturur veya varsa günceller
+using (var serviceScope = builder.Services.BuildServiceProvider().CreateScope())
+{
+    var dbContext = serviceScope.ServiceProvider.GetRequiredService<LibraryDbContext>();
+    dbContext.Database.Migrate();
+}
 
 var app = builder.Build();
 

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\meshm\\source\\repos\\MYLibrary\\MYLibraryService\\MYLibraryService.csproj": {}
+    "C:\\Users\\mehmet.yildirim\\Desktop\\mylibrary\\MYLibrary\\MYLibraryService\\MYLibraryService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\meshm\\source\\repos\\MYLibrary\\MYLibraryService\\MYLibraryService.csproj": {
+    "C:\\Users\\mehmet.yildirim\\Desktop\\mylibrary\\MYLibrary\\MYLibraryService\\MYLibraryService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\meshm\\source\\repos\\MYLibrary\\MYLibraryService\\MYLibraryService.csproj",
+        "projectUniqueName": "C:\\Users\\mehmet.yildirim\\Desktop\\mylibrary\\MYLibrary\\MYLibraryService\\MYLibraryService.csproj",
         "projectName": "MYLibraryService",
-        "projectPath": "C:\\Users\\meshm\\source\\repos\\MYLibrary\\MYLibraryService\\MYLibraryService.csproj",
-        "packagesPath": "C:\\Users\\meshm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\meshm\\source\\repos\\MYLibrary\\MYLibraryService\\obj\\",
+        "projectPath": "C:\\Users\\mehmet.yildirim\\Desktop\\mylibrary\\MYLibrary\\MYLibraryService\\MYLibraryService.csproj",
+        "packagesPath": "C:\\Users\\mehmet.yildirim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mehmet.yildirim\\Desktop\\mylibrary\\MYLibrary\\MYLibraryService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\meshm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mehmet.yildirim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

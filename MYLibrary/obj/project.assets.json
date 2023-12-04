@@ -9659,19 +9659,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\meshm\\.nuget\\packages\\": {}
+    "C:\\Users\\mehmet.yildirim\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\meshm\\source\\repos\\MYLibrary\\MYLibrary\\MYLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\mehmet.yildirim\\Desktop\\mylibrary\\MYLibrary\\MYLibrary\\MYLibrary.csproj",
       "projectName": "MYLibrary",
-      "projectPath": "C:\\Users\\meshm\\source\\repos\\MYLibrary\\MYLibrary\\MYLibrary.csproj",
-      "packagesPath": "C:\\Users\\meshm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\meshm\\source\\repos\\MYLibrary\\MYLibrary\\obj\\",
+      "projectPath": "C:\\Users\\mehmet.yildirim\\Desktop\\mylibrary\\MYLibrary\\MYLibrary\\MYLibrary.csproj",
+      "packagesPath": "C:\\Users\\mehmet.yildirim\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mehmet.yildirim\\Desktop\\mylibrary\\MYLibrary\\MYLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\meshm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mehmet.yildirim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9721,7 +9721,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
